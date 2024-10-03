@@ -54,7 +54,7 @@ def add_watermark():
         messagebox.showinfo("Success", f"Watermarked image saved as {save_path}")
 
 
-# Main window
+# ________________________________________________Main window____________________________________
 window = tk.Tk()
 window.title("Image Watermarker")
 
@@ -92,3 +92,5 @@ watermark_btn.grid(row=5, column=0, columnspan=2, padx=10, pady=10)
 
 # Start the Tkinter loop
 window.mainloop()
+
+
