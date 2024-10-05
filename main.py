@@ -54,7 +54,7 @@ def add_watermark():
         messagebox.showinfo("Success", f"Watermarked image saved as {save_path}")
 
 
-# ________________________________________________Main window____________________________________
+# window pain
 window = tk.Tk()
 window.title("Image Watermarker")
 
